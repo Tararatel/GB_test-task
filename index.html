@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>GeekBrains - тестовое задание HTML & CSS</title>
+</head>
+
+<body>
+	<section class="auth">
+		<div class="auth__wrapper">
+			<div class="auth__content">
+				<h1 class="auth__content-title">Авторизация</h1>
+				<h2 class="auth__content-text">Войдите в свой аккаунт</h2>
+			</div>
+			<form class="auth__form">
+				<input class="auth__form-email" type="email" name="auth_email" maxlength="30" placeholder="Email" required>
+				<input class="auth__form-password" type="password" name="auth_pass" maxlength="20" placeholder="Пароль"
+					required>
+				<div class="auth__remember-box">
+					<div class="auth__remember">
+						<input class="auth__remember-checkbox" type="checkbox" name="auth_remember">
+						<label>Запомнить меня</label>
+					</div>
+					<a class="auth__remember-link" href="#">Забыли свой пароль?</a>
+				</div>
+				<button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>
